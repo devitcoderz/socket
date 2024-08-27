@@ -12,7 +12,7 @@ $(document).ready(function(){
         });
     }
 
-    var socketIO = io("wss://127.0.0.1:4000");
+    var socketIO = io("wss://test.checkxyz.com:4000");
         
 
     // message methods
