@@ -63,6 +63,6 @@ socketIO.on('connection', (socket) => {
     
 });
 
-http.listen(4000,'fiv2-gchfdkc8htebhnfw.canadacentral-01.azurewebsites.net', () => {
+http.listen(4000, () => {
     console.log('Server is started. ');
 });
