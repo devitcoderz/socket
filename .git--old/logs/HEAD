@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 2d019269cf4ae6aaf1118d02f62ed640c014b0cc Muzamil <muzamilq35@gmail.com> 1722938028 +0500	commit (initial): Initial Commit
+2d019269cf4ae6aaf1118d02f62ed640c014b0cc 0000000000000000000000000000000000000000 Muzamil <muzamilq35@gmail.com> 1722938043 +0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 2d019269cf4ae6aaf1118d02f62ed640c014b0cc Muzamil <muzamilq35@gmail.com> 1722938043 +0500	Branch: renamed refs/heads/master to refs/heads/main
+2d019269cf4ae6aaf1118d02f62ed640c014b0cc 7809a43fbf8023bf901e3026d7aa51de1cdfb5e6 Muzamil <muzamilq35@gmail.com> 1722938729 +0500	commit: Update
+7809a43fbf8023bf901e3026d7aa51de1cdfb5e6 1e3b50fa89e38c0fd2a69134e1488dc11ff67bff Muzamil <muzamilq35@gmail.com> 1723000970 +0500	commit: Updaed
+1e3b50fa89e38c0fd2a69134e1488dc11ff67bff 1e3b50fa89e38c0fd2a69134e1488dc11ff67bff aftab7604 <a_aftab.s@hotmail.com> 1724467501 +0500	checkout: moving from main to aftab
+1e3b50fa89e38c0fd2a69134e1488dc11ff67bff 80fe86331a5a9ff3652bc71b0d32ac04f0bc82b4 aftab7604 <a_aftab.s@hotmail.com> 1724467590 +0500	commit: push to aftab
+80fe86331a5a9ff3652bc71b0d32ac04f0bc82b4 9f29ff45e8458219c6e214c7528241e0ee0d0595 aftab7604 <a_aftab.s@hotmail.com> 1724471021 +0500	commit: live settings
+9f29ff45e8458219c6e214c7528241e0ee0d0595 af490c7ecbc77be82d26cbb2bce63522d1ccbbb1 aftab7604 <a_aftab.s@hotmail.com> 1724718555 +0500	commit: dep
