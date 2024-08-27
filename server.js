@@ -63,6 +63,6 @@ socketIO.on('connection', (socket) => {
     
 });
 
-http.listen(4000, () => {
+http.listen(4000,'0.0.0.0', () => {
     console.log('Server is started. ');
 });
