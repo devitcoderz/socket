@@ -180,7 +180,7 @@
 
   @push('script')
 <script>
- var socketIO = io("wss://test.checkxyz.com:4000");
+ var socketIO = io("ws://test.checkxyz.com:4000");
  socketIO.onopen = function() { console.log('Connection opened'); };
  socketIO.onmessage = function(event) { console.log('Message received:', event.data); };
  socketIO.onclose = function() { console.log('Connection closed'); };
