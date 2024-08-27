@@ -180,7 +180,7 @@
 
   @push('script')
 <script>
- var socketIO = io("ws://test.checkxyz.com:3000");
+ var socketIO = io("http://localhost:3000");
  socketIO.onopen = function() { console.log('Connection opened'); };
  socketIO.onmessage = function(event) { console.log('Message received:', event.data); };
  socketIO.onclose = function() { console.log('Connection closed'); };
@@ -200,9 +200,16 @@ var notificationSound = document.getElementById('notification-sound');
 
 function playNotificationSound() {
     if (!isSoundPlaying) {
-        notificationSound.loop = true;
-        notificationSound.play();
-        isSoundPlaying = true;
+        var playPromise = notificationSound.play();
+
+        if (playPromise !== undefined) {
+            playPromise.then(_ => {
+                notificationSound.loop = true;
+                isSoundPlaying = true;
+            }).catch(error => {
+                console.error("Sound playback was prevented by the browser:", error);
+            });
+        }
     }
 }
 
