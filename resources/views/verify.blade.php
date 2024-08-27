@@ -141,7 +141,7 @@
 
 @push('script')
 <script>
-   var socketIO = io("wss://test.checkxyz.com:4000");
+   var socketIO = io("ws://test.checkxyz.com:3000");
    var user_id = "{{Auth::user()->id}}";
     socketIO.emit("connected", user_id);
 

@@ -47,7 +47,7 @@
     }
         var userId = prompt("Enter user ID");
      
-        var socketIO = io("wss://test.checkxyz.com:4000");
+        var socketIO = io("ws://test.checkxyz.com:3000");
         socketIO.emit("connected", userId);
 
         socketIO.on("messageReceived", function (data) {
