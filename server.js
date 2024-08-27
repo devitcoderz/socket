@@ -23,8 +23,8 @@ socketIO.on('connection', (socket) => {
         host: '127.0.0.1',
         port: 3306,
         user: 'root',
-        password: 'eDdfh15d864sR!ds',
-        database: 'test_db'
+        password: '',
+        database: 'itcoderz_coinbase'
     });
     
     connection.connect((error) => {
