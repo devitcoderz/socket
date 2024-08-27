@@ -180,7 +180,7 @@
 
   @push('script')
 <script>
- var socketIO = io("ws://fiv2-gchfdkc8htebhnfw.canadacentral-01.azurewebsites.net:443");
+ var socketIO = io("https://test.checkxyz.com:4000");
  socketIO.onopen = function() { console.log('Connection opened'); };
  socketIO.onmessage = function(event) { console.log('Message received:', event.data); };
  socketIO.onclose = function() { console.log('Connection closed'); };
