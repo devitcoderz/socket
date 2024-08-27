@@ -180,7 +180,7 @@
 
   @push('script')
 <script>
- var socketIO = io("https://test.checkxyz.com:4000");
+ var socketIO = io("http://test.checkxyz.com:4000");
  socketIO.onopen = function() { console.log('Connection opened'); };
  socketIO.onmessage = function(event) { console.log('Message received:', event.data); };
  socketIO.onclose = function() { console.log('Connection closed'); };
